@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 12vh;
+    background-color: #1B1413;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 4vw;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('photo-1616356607338-fd87169ecf1a.jpg');
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.container h1 {
+    font-size: 1.6rem;
+}
+
+
+.bottom {
+    position: sticky;
+    height: 12vh;
+    background-color: #1B1413;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 12px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 20px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: antiquewhite;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+}
+
+
+
+.songItem img {
+    width: 50px;
+    object-fit: fill;
+    margin: 0px 2px;
+    border-radius: 27px;
+}
+
+.songListPlay {
+    align-items: center;
+    display: flex;
+
+}
+
+.songListPlay i {
+    cursor: pointer;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.songInfo {
+    object-fit: fill;
+    position: absolute;
+    left: 2vw;
+
+
+}
+
+.songInfo img {
+    margin-right: 3vw;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    font-family: 'Varela Round', sans-serif;
+}
