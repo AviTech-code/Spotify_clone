@@ -15,12 +15,12 @@ let songs = [
     { songName: "Ik Vaari Aa", songPath: "songs/ikvaariaa.mp3", coverPath: "/images/ik_vaari_aa.jpg" },
     { songName: "Humsafar", songPath: "/songs/hamsafar.mp3", coverPath: "/images/hamsafar.jpg" },
 
-    { songName: "Let me love You", songPath: "/songs/letmeloveu.mp3", coverPath: "/images/letmeloveu.jpg" },
-    { songName: "Bahubali", songPath: "/songs/jiyorebahubali.mp3", coverPath: "/images/bahubali.jpg" },
-    { songName: "Kar Gayi chull", songPath: "/songs/kargyichull.mp3", coverPath: "/images/hip_hop.jpg" },
-    { songName: "Paro", songPath: "/songs/paro.mp3", coverPath: "/images/ppk2.jpg" },
-    { songName: "Raabta", songPath: "/songs/raabta.mp3", coverPath: "/images/rabta.jpg" },
-    { songName: "Shape of You", songPath: "/songs/shapeofyou.mp3", coverPath: "/images/shape_of_you.jpg" }
+    { songName: "Let me love You", songPath: "/songs/letmeloveu.mp3", coverPath: "images/letmeloveu.jpg" },
+    { songName: "Bahubali", songPath: "/songs/jiyorebahubali.mp3", coverPath: "images/bahubali.jpg" },
+    { songName: "Kar Gayi chull", songPath: "/songs/kargyichull.mp3", coverPath: "images/hip_hop.jpg" },
+    { songName: "Paro", songPath: "/songs/paro.mp3", coverPath: "images/ppk2.jpg" },
+    { songName: "Raabta", songPath: "/songs/raabta.mp3", coverPath: "images/rabta.jpg" },
+    { songName: "Shape of You", songPath: "/songs/shapeofyou.mp3", coverPath: "images/shape_of_you.jpg" }
 ]
 songItems.forEach((element, i) => {
     console.log(element, i);
