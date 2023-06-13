@@ -12,8 +12,8 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 //Array of objects like songName, path of song, coverPath
 
 let songs = [
-    { songName: "Ik Vaari Aa", songPath: "songs/ikvaariaa.mp3", coverPath: "/images/ik_vaari_aa.jpg" },
-    { songName: "Humsafar", songPath: "/songs/hamsafar.mp3", coverPath: "/images/hamsafar.jpg" },
+    { songName: "Ik Vaari Aa", songPath: "songs/ikvaariaa.mp3", coverPath: "images/ik_vaari_aa.jpg" },
+    { songName: "Humsafar", songPath: "/songs/hamsafar.mp3", coverPath: "images/hamsafar.jpg" },
 
     { songName: "Let me love You", songPath: "/songs/letmeloveu.mp3", coverPath: "images/letmeloveu.jpg" },
     { songName: "Bahubali", songPath: "/songs/jiyorebahubali.mp3", coverPath: "images/bahubali.jpg" },
